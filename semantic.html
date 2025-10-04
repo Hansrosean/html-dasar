@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML</title>
+
+    <style>
+      header {
+        color: black;
+        background-color: darkcyan;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      article {
+        color: black;
+        background-color: lightgray;
+        font-size: 15px;
+        padding: 10px;
+      }
+
+      footer {
+        color: black;
+        background-color: darkgray;
+        text-align: center;
+        padding: 10px;
+      }
+
+      nav {
+        font-size: 20px;
+        background-color: cyan;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        overflow: hidden;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      nav li a:hover {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ini adalah judul</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Article</a></li>
+        <li><a href="">Footer</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <h1>Eleg 1</h1>
+        <p>Eleg Eleg Eleg</p>
+      </article>
+      <article>
+        <h1>Eleg 2</h1>
+        <p>Eleg Eleg Eleg</p>
+      </article>
+    </section>
+    <footer>
+      <p>HANS HANS HANS <time datetime="2025">2025</time></p>
+    </footer>
+  </body>
+</html>
+
+<!--
+  semantic = element di HTML yang memiliki arti
+  -> berfungsi sebagai container seperti div dan span namun lebih memiliki arti
+
+  semantic lebih mudah untuk mengatur layout (CSS)
+-->
